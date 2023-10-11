@@ -6,6 +6,7 @@ const colorBtns = document.querySelectorAll(".colors .option");
 const colorPicker = document.getElementById("color-picker");
 const clearCanvas = document.querySelector(".clear-canvas");
 const saveImage = document.querySelector(".save-image");
+
 let ctx = canvas.getContext("2d");
 let isDrawing = false;
 let brushWidth = 5;
