@@ -6,12 +6,16 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+:root{
+  --active-color:#4a98f7;
+}
+
 body {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: #4a98f7;
+  background-color: var(--active-color);
 }
 
 .container {
@@ -22,12 +26,6 @@ body {
   padding: 10px;
 }
 
-.title {
-  margin: 10px 0 15px 0;
-  display: block;
-  /* border: 1px solid red; */
-}
-
 section {
   background-color: #fff;
   border-radius: 7px;
@@ -36,6 +34,12 @@ section {
 .tools-board {
   width: 210px;
   padding: 15px 22px 0;
+}
+
+.title {
+  margin: 10px 0 15px 0;
+  display: block;
+  /* border: 1px solid red; */
 }
 
 .drawing-board {
@@ -78,7 +82,7 @@ section {
 }
 
 .option:is(:hover, .active) :where(span, label) {
-  color: #4a98f7;
+  color: var(--active-color);
 }
 
 .option #size-handler {
@@ -93,10 +97,16 @@ section {
 }
 
 #fill-color:checked ~ label {
-  color: #4a98f7;
+  color: var(--active-color);
 }
 
-.colors .option {
+.colors .options {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.colors .options .option {
   height: 20px;
   width: 20px;
   border-radius: 50%;
@@ -106,13 +116,7 @@ section {
   align-items: center;
 }
 
-.colors .options {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-}
-
-.colors .option.selected::before {
+.colors .options .option.selected::before {
   position: absolute;
   content: "";
   height: 12px;
@@ -122,28 +126,28 @@ section {
   border: 2px solid #fff;
 }
 
-.colors .option:nth-child(1) {
+.colors .options .option:nth-child(1) {
   background-color: #fff;
   border: 1px solid #bfbfbf;
 }
 
-.colors .option:nth-child(2) {
+.colors .options .option:nth-child(2) {
   background-color: #000;
 }
 
-.colors .option:nth-child(3) {
+.colors .options .option:nth-child(3) {
   background-color: #e02020;
 }
 
-.colors .option:nth-child(4) {
+.colors .options .option:nth-child(4) {
   background-color: #6dd400;
 }
 
-.colors .option:nth-child(5) {
-  background-color: #4a98f7;
+.colors .options .option:nth-child(5) {
+  background-color: var(--active-color);
 }
 
-.colors .option:first-child.selected::before {
+.colors .options .option:first-child.selected::before {
   border-color: #ccc;
 }
 
@@ -172,8 +176,8 @@ section {
 }
 
 .buttons .save-image {
-  background-color: #4a98f7;
-  border: 1px solid #4a98f7;
+  background-color: var(--active-color);
+  border: 1px solid var(--active-color);
 }
 
 .drawing-board canvas {
