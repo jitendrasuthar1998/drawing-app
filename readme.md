@@ -7,10 +7,7 @@ And also can save whatever he has drawn on canvas as a image.
 
 ## Screenshot
 
-<div align="center">
-  <img src="images/drawing-application.png" alt="Dopefolio Demo" width="100%" />
-  <br>
-</div>
+[![drawing-application.png](https://i.postimg.cc/dVpjBCGx/drawing-application.png)](https://postimg.cc/5X5z967B)
 
 
 ### Sections
