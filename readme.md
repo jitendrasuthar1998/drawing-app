@@ -5,6 +5,14 @@
 It is a very simple drawing application where a user can draw by selecting any shape from available three shapes, or can draw something freely.
 And also can save whatever he has drawn on canvas as a image.
 
+## Screenshot
+
+<div align="center">
+  <img src="images/drawing-application.png" alt="Dopefolio Demo" width="100%" />
+  <br>
+</div>
+
+
 ### Sections
 
 There are two sections of this application user interface.
@@ -65,3 +73,4 @@ To build this drawing application i have used these technologies.
 * CSS
 * Javascript
 * Canvas API
+
