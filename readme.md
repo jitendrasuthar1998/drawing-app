@@ -7,7 +7,7 @@ And also can save whatever he has drawn on canvas as a image.
 
 ## Screenshot
 
-[![drawing-application.png](https://i.postimg.cc/dVpjBCGx/drawing-application.png)](https://postimg.cc/5X5z967B)
+<img src="https://i.postimg.cc/dVpjBCGx/drawing-application.png" style="max-width:100%" alt="drawing-app"/>
 
 
 ### Sections
