@@ -1,73 +1,59 @@
-## Drawing Application
+# Drawing Application
 
 ### Introduction
 
-It is a very simple drawing application where a user can draw by selecting any shape from available three shapes, or can draw something freely.
-And also can save whatever he has drawn on canvas as a image.
+This is a simple drawing application that allows users to create drawings by selecting shapes from the available options or by drawing freely on a canvas. Users can also save their creations as images.
 
-## Screenshot
+### Screenshot
 
 <img src="https://i.postimg.cc/dVpjBCGx/drawing-application.png" style="max-width:100%" alt="drawing-app"/>
 
-
 ### Sections
 
-There are two sections of this application user interface.
+The application interface consists of two main sections:
 
-* The Left Section.
-* The Right Section.
+1. **Left Section - Tool Board**
+2. **Right Section - Canvas**
 
 #### Tool Board
 
-The left section of this application is a Tool Board.
-From Tool Board, user can select available different shapes, options and colors.
+The Tool Board on the left side allows users to select different shapes, options, and colors for their drawings.
 
 ##### Shapes
 
-There are three shapes available from which user can select any of them to draw on canvas.
-1. Rectangle
-2. Circle
-3. Triangle
+Users can choose from three available shapes to draw on the canvas:
 
-User can choose fill color option if he wants to draw a shape with color filled inside it.
+1. **Rectangle**
+2. **Circle**
+3. **Triangle**
 
-When user select fill color option, and select any shape, that time shape drawn by user will get filled by selected color.
+Users can also select the **fill color** option to fill the shapes with a color of their choice.
 
 #### Drawing Options
 
-There are two options available for user.
-1. Brush
-2. Eraser
+Two options are available for users:
 
-If user want to draw something freely on canvas, that time user can select brush option.
-
-If user wants to erase something which he has drawn on canvas, that time user can select eraser option.
+1. **Brush** - Allows users to draw freely on the canvas.
+2. **Eraser** - Enables users to erase parts of their drawing.
 
 #### Colors
 
-There are 4 default colors options.
-If user want to select any other color from avaialbe colors, that time user can select any color by opening color picker by selecting 5th color option.
+There are four default color options available. Users can select additional colors by opening a color picker through the fifth color option.
 
 #### Buttons
 
-##### Clear Canvas
-
-If user wants to clear canvas completely, that time user can click on Clear canvas button.
-
-##### Save As Image
-
-If user wants to save what he has drawn on canvas as an image, that time user can click on Save As Image button.
+- **Clear Canvas**: Clicking this button clears the canvas completely.
+- **Save As Image**: This button allows users to save their drawings as an image file.
 
 #### Canvas
 
-The right section of this application a canvas on which user can draw any shape or can draw freely.
+The right section of the application features the canvas where users can draw shapes or create freehand drawings.
 
-## Tehnologies Used
+### Technologies Used
 
-To build this drawing application i have used these technologies.
+This drawing application is built using the following technologies:
 
-* HTML
-* CSS
-* Javascript
-* Canvas API
-
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **Canvas API**
